@@ -1,0 +1,204 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+}
+
+body{
+    background-color: #9C9EFE;
+}
+.header .logo img{
+    height: 100px;
+    background-color: transparent;
+    width: 100px;
+}
+.header{
+    background-color: white;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 7%;
+   margin: 20px;
+   border-radius:300px;
+   box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.75);
+   position: sticky;
+   top: 0;
+   z-index: 1000;
+   
+}
+.header .navbar a{
+    margin: 1px;
+    padding:16px;
+    color: black;
+    border-bottom: 0.1rem solid transparent;
+    font-size:20px;
+    padding-right: 230px;
+}
+.header .navbar a:hover{
+    color: rgba(86, 86, 249, 0.604);
+}
+
+.menu .box-conteiner{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30px,1fr));
+    gap: 15px;
+    margin: 20px;
+}
+.menu .box-conteiner .box {
+    padding: 3px;
+    margin: 0px 200px 0px 500px;
+    background-color: #fff;
+    border-radius:30px;
+    display: flex;
+    flex-direction: column;
+   align-items:flex-start;
+    justify-content: space-between;
+    width: 30%;
+   
+}
+.menu .box-conteiner .box img{
+    width: 250px;
+    object-fit: cover;
+    
+}
+
+.menu .box-conteiner .box .menu-category{
+    font-size: 12px;
+    padding-right: 900px;
+    
+}
+.menu .box-conteiner .box h3{
+    font-size:14px;
+    padding: 15px 0;
+}
+.menu .box-conteiner .box .price{
+    font-size: 14px;
+    padding: 4px 0;
+}
+.menu .box-conteiner .box .box-head{
+    padding-left: 80px;
+}
+.bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.600),rgba(0,0,0,0.600)),url(img/mcwp.jpg);
+    -webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+              background-size: cover;
+}
+.content{
+    text-align: center;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.content h3{
+    font-size: 60px;
+   }
+.content p{
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 520px;
+   }
+   .content .btn{
+    border-radius: 30px;
+    margin-top: 40px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+
+   }
+   .btn:hover{
+    animation-name:buton;
+    animation-duration: 2s;
+    background-color: black;
+    
+    }
+    @keyframes buton {
+        from {background-color: #fff;}
+        to {background-color:black;}
+    }
+    @keyframes buton2 {
+        from {color: black;}
+        to {color:#fff;}
+    }
+    .btn a:hover{
+        animation-name:buton2;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    }
+    .hkm h3{
+        text-align: center;
+        font-size: 60px;
+        color: #fff;
+        border-bottom:3px solid #fff;
+    }
+    .hkm .contnt{
+        padding-top: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    .bg2{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.600),rgba(0,0,0,0.600)),url(img/hakk.jpg);
+        -webkit-background-size: cover;
+                  -moz-background-size: cover;
+                  -o-background-size: cover;
+                  background-size: cover;
+    }
+    .social-media-btn {
+      
+      display: flex;
+      padding-left:535px;
+      margin-top: 30px;
+      border-bottom: 3px solid #fff;
+      
+     
+        
+        
+    }
+    .social-media-btn a {
+        
+        text-align: center;
+       
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 15px;
+        border-radius:50%;
+        margin: 15px;
+        padding: 15px;
+        height: 48px;
+    }
+    .social-media-btn a:hover {
+        opacity: 0.8;
+    }
+    .facebook {
+        background: #3B5998;
+        color: white;
+        
+    }
+    .twitter {
+        background: #55ACEE;
+        color: white;
+    }
+    .google {
+        background: #dd4b39;
+        color: white;
+    }
+    .linkedin {
+        background: #007bb5;
+        color: white;
+    }
+    .instagram {
+        background: #125688;
+        color: white;
+    }
+    .pinterest {
+        background: #cb2027;
+        color: white;
+    }       
+    .content {
+        margin-left: 65px;
+    }
